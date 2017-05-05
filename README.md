@@ -35,7 +35,7 @@ explication (converse nonimplication).
 Explication deserves some explanation, as it is one of the lesser known
 connectives. It essentially states that the left operand is not implied by the
 right operand. However, it has some extra finesse to it in intuitionistic logic.
-There, `B </= A` is the largest term such that `A :- B </= A ; B` is true. This
+There, `B </= A` is the smallest term such that `A :- B </= A ; B` is true. This
 "law of exclusive implication" is the parallel to implication's Modus Ponens
 (`P , P => Q :- Q`), and states that from A, we can conclude B, or that B is not
 implied by A. This is a weaker form of the law of excluded middle in classical
